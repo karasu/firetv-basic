@@ -1,0 +1,26 @@
+netflix:
+  sequence:
+    - service: switch.turn_on
+      data:
+        entity_id: switch.tv
+    - service: rest_command.firetv
+      data:
+        application: "netflix"
+
+prime:
+  sequence:
+    - service: switch.turn_on
+      data:
+        entity_id: switch.tv
+    - service: rest_command.firetv
+      data:
+        application: "prime"
+
+movistar:
+  sequence:
+    - service: switch.turn_on
+      data:
+        entity_id: switch.tv
+    - service: rest_command.firetv
+      data:
+        application: "movistar"
