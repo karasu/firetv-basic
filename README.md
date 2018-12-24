@@ -11,5 +11,6 @@ This is to setup Alexa <-> Homeassistant <-> FireTV Basic Stick
 6. Add configuration.yaml contents to your configuration.yaml file in homeassistant
 
 WIP:
+
 7. Upload amazon labmda function
 8. Create custom skill
